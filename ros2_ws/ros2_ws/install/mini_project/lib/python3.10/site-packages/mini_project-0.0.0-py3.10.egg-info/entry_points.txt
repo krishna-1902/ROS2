@@ -1,0 +1,4 @@
+[console_scripts]
+controller_node = mini_project.controller_node:main
+turtle_service = mini_project.turtle_service:main
+

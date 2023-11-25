@@ -1,0 +1,6 @@
+setup.py
+proj_interfaces/__init__.py
+proj_interfaces.egg-info/PKG-INFO
+proj_interfaces.egg-info/SOURCES.txt
+proj_interfaces.egg-info/dependency_links.txt
+proj_interfaces.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from proj_interfaces/srv/TurtleKill.srv
+// generated code does not contain a copyright notice
+
+
+module proj_interfaces {
+  module srv {
+    struct TurtleKill_Request {
+      string name;
+    };
+    struct TurtleKill_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

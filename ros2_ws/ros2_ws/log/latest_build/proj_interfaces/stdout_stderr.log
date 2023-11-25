@@ -1,0 +1,294 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /colossus/krish/ros2_ws/build/proj_interfaces
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_proj_interfaces
+running egg_info
+creating proj_interfaces.egg-info
+writing proj_interfaces.egg-info/PKG-INFO
+writing dependency_links to proj_interfaces.egg-info/dependency_links.txt
+writing top-level names to proj_interfaces.egg-info/top_level.txt
+writing manifest file 'proj_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'proj_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'proj_interfaces.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_proj_interfaces_egg
+[  4%] Built target proj_interfaces__cpp
+[  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 17%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proj_interfaces/msg/detail/turtle_proj__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proj_interfaces/msg/detail/turtle_proj_array__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proj_interfaces/srv/detail/turtle_kill__functions.c.o[0m
+[ 19%] [32m[1mLinking C shared library libproj_interfaces__rosidl_generator_c.so[0m
+[ 19%] Built target proj_interfaces__rosidl_generator_c
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proj_interfaces/msg/turtle_proj__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proj_interfaces/msg/turtle_proj_array__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proj_interfaces/srv/turtle_kill__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proj_interfaces/srv/detail/dds_fastrtps/turtle_kill__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proj_interfaces/msg/detail/dds_fastrtps/turtle_proj__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proj_interfaces/msg/detail/turtle_proj__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proj_interfaces/msg/detail/dds_fastrtps/turtle_proj_array__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proj_interfaces/msg/detail/turtle_proj_array__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proj_interfaces/srv/detail/turtle_kill__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proj_interfaces/msg/detail/turtle_proj__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proj_interfaces/msg/detail/turtle_proj_array__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proj_interfaces/srv/detail/turtle_kill__type_support.c.o[0m
+[ 53%] [32m[1mLinking C shared library libproj_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proj_interfaces/srv/turtle_kill__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proj_interfaces/msg/turtle_proj_array__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proj_interfaces/msg/turtle_proj__type_support.cpp.o[0m
+[ 59%] Built target proj_interfaces__rosidl_typesupport_introspection_c
+[ 61%] [32m[1mLinking CXX shared library libproj_interfaces__rosidl_typesupport_c.so[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proj_interfaces/msg/detail/turtle_proj__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proj_interfaces/srv/detail/turtle_kill__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/proj_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proj_interfaces/msg/detail/turtle_proj_array__type_support_c.cpp.o[0m
+[ 68%] Built target proj_interfaces__rosidl_typesupport_c
+[ 70%] [32m[1mLinking CXX shared library libproj_interfaces__rosidl_typesupport_cpp.so[0m
+[ 70%] Built target proj_interfaces__rosidl_typesupport_cpp
+[ 72%] [32m[1mLinking CXX shared library libproj_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 74%] [32m[1mLinking CXX shared library libproj_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target proj_interfaces__rosidl_typesupport_introspection_cpp
+[ 76%] [32m[1mLinking CXX shared library libproj_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target proj_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 76%] Built target proj_interfaces__rosidl_typesupport_fastrtps_c
+[ 76%] Built target proj_interfaces
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target proj_interfaces__py
+[ 85%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proj_interfaces/msg/_turtle_proj_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proj_interfaces/srv/_turtle_kill_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proj_interfaces/msg/_turtle_proj_array_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/proj_interfaces/libproj_interfaces__rosidl_generator_py.so[0m
+[ 87%] Built target proj_interfaces__rosidl_generator_py
+[ 93%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/proj_interfaces/_proj_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/proj_interfaces/_proj_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/proj_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/proj_interfaces/_proj_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/proj_interfaces/proj_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/proj_interfaces/proj_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/proj_interfaces/proj_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target proj_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target proj_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target proj_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/ament_index/resource_index/rosidl_interfaces/proj_interfaces
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/turtle_proj_array.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__struct.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__functions.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__struct.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__functions.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__type_support.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__functions.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__type_support.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__functions.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/turtle_proj.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/turtle_kill.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__functions.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__functions.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__type_support.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__struct.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/environment/library_path.sh
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/environment/library_path.dsv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__rosidl_typesupport_fastrtps_c.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__rosidl_typesupport_fastrtps_c.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/turtle_proj.hpp
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__traits.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__struct.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__builder.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__traits.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__struct.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__builder.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/turtle_proj_array.hpp
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__builder.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__struct.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__traits.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/turtle_kill.hpp
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/dds_fastrtps
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/dds_fastrtps
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__rosidl_typesupport_introspection_c.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__type_support.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__type_support.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__rosidl_typesupport_introspection_c.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__type_support.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__rosidl_typesupport_introspection_c.h
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj_array__type_support.cpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__type_support.cpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/msg/detail/turtle_proj__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv
+-- Up-to-date: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/include/proj_interfaces/proj_interfaces/srv/detail/turtle_kill__type_support.cpp
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/environment/pythonpath.sh
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/environment/pythonpath.dsv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces-0.0.0-py3.10.egg-info
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/_proj_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/libproj_interfaces__rosidl_generator_py.so
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg/_turtle_proj.py
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg/_turtle_proj_s.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg/_turtle_proj_array.py
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg/_turtle_proj_array_s.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg/__init__.py
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/_proj_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/_proj_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/srv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/srv/_turtle_kill_s.c
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/srv/_turtle_kill.py
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/srv/__init__.py
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/__init__.py
+Listing '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces'...
+Compiling '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/__init__.py'...
+Listing '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg'...
+Compiling '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg/__init__.py'...
+Compiling '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg/_turtle_proj.py'...
+Compiling '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/msg/_turtle_proj_array.py'...
+Listing '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/srv'...
+Compiling '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/srv/__init__.py'...
+Compiling '/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/srv/_turtle_kill.py'...
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/local/lib/python3.10/dist-packages/proj_interfaces/proj_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/colossus/krish/ros2_ws/install/proj_interfaces/lib/libproj_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/msg/TurtleProj.idl
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/msg/TurtleProjArray.idl
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/srv/TurtleKill.idl
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/msg/TurtleProj.msg
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/msg/TurtleProjArray.msg
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/srv/TurtleKill.srv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/srv/TurtleKill_Request.msg
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/srv/TurtleKill_Response.msg
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/ament_index/resource_index/package_run_dependencies/proj_interfaces
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/ament_index/resource_index/parent_prefix_path/proj_interfaces
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/environment/ament_prefix_path.sh
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/environment/path.sh
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/environment/path.dsv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/local_setup.bash
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/local_setup.sh
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/local_setup.zsh
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/local_setup.dsv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/package.dsv
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/ament_index/resource_index/packages/proj_interfaces
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/export_proj_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfacesConfig.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/cmake/proj_interfacesConfig-version.cmake
+-- Installing: /colossus/krish/ros2_ws/install/proj_interfaces/share/proj_interfaces/package.xml

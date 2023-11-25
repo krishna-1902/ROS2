@@ -1,0 +1,43 @@
+[1.023s] Invoking command in '/colossus/krish/ros2_ws/src/mini_project': CMAKE_PREFIX_PATH=/colossus/krish/ros2_ws/install/turtlesim:/colossus/krish/ros2_ws/install/proj_interfaces LD_LIBRARY_PATH=/colossus/krish/ros2_ws/install/turtlesim/lib:/colossus/krish/ros2_ws/install/proj_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/colossus/krish/ros2_ws/build/mini_project/prefix_override:/colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mini_project build --build-base /colossus/krish/ros2_ws/build/mini_project/build install --record /colossus/krish/ros2_ws/build/mini_project/install.log --single-version-externally-managed
+[1.301s] running egg_info
+[1.301s] creating ../../build/mini_project/mini_project.egg-info
+[1.302s] writing ../../build/mini_project/mini_project.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/mini_project/mini_project.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/mini_project/mini_project.egg-info/entry_points.txt
+[1.302s] writing requirements to ../../build/mini_project/mini_project.egg-info/requires.txt
+[1.303s] writing top-level names to ../../build/mini_project/mini_project.egg-info/top_level.txt
+[1.303s] writing manifest file '../../build/mini_project/mini_project.egg-info/SOURCES.txt'
+[1.304s] reading manifest file '../../build/mini_project/mini_project.egg-info/SOURCES.txt'
+[1.305s] writing manifest file '../../build/mini_project/mini_project.egg-info/SOURCES.txt'
+[1.305s] running build
+[1.305s] running build_py
+[1.305s] creating /colossus/krish/ros2_ws/build/mini_project/build
+[1.306s] creating /colossus/krish/ros2_ws/build/mini_project/build/lib
+[1.306s] creating /colossus/krish/ros2_ws/build/mini_project/build/lib/mini_project
+[1.306s] copying mini_project/turtle_service.py -> /colossus/krish/ros2_ws/build/mini_project/build/lib/mini_project
+[1.306s] copying mini_project/controller_node.py -> /colossus/krish/ros2_ws/build/mini_project/build/lib/mini_project
+[1.306s] copying mini_project/__init__.py -> /colossus/krish/ros2_ws/build/mini_project/build/lib/mini_project
+[1.307s] running install
+[1.307s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.307s]   warnings.warn(
+[1.307s] running install_lib
+[1.307s] creating /colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages/mini_project
+[1.308s] copying /colossus/krish/ros2_ws/build/mini_project/build/lib/mini_project/turtle_service.py -> /colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages/mini_project
+[1.308s] copying /colossus/krish/ros2_ws/build/mini_project/build/lib/mini_project/controller_node.py -> /colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages/mini_project
+[1.308s] copying /colossus/krish/ros2_ws/build/mini_project/build/lib/mini_project/__init__.py -> /colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages/mini_project
+[1.308s] byte-compiling /colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages/mini_project/turtle_service.py to turtle_service.cpython-310.pyc
+[1.309s] byte-compiling /colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages/mini_project/controller_node.py to controller_node.cpython-310.pyc
+[1.309s] byte-compiling /colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages/mini_project/__init__.py to __init__.cpython-310.pyc
+[1.309s] running install_data
+[1.310s] creating /colossus/krish/ros2_ws/install/mini_project/share/ament_index
+[1.310s] creating /colossus/krish/ros2_ws/install/mini_project/share/ament_index/resource_index
+[1.310s] creating /colossus/krish/ros2_ws/install/mini_project/share/ament_index/resource_index/packages
+[1.311s] copying resource/mini_project -> /colossus/krish/ros2_ws/install/mini_project/share/ament_index/resource_index/packages
+[1.311s] copying package.xml -> /colossus/krish/ros2_ws/install/mini_project/share/mini_project
+[1.311s] running install_egg_info
+[1.312s] Copying ../../build/mini_project/mini_project.egg-info to /colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages/mini_project-0.0.0-py3.10.egg-info
+[1.313s] running install_scripts
+[1.336s] Installing controller_node script to /colossus/krish/ros2_ws/install/mini_project/lib/mini_project
+[1.336s] Installing turtle_service script to /colossus/krish/ros2_ws/install/mini_project/lib/mini_project
+[1.337s] writing list of installed files to '/colossus/krish/ros2_ws/build/mini_project/install.log'
+[1.368s] Invoked command in '/colossus/krish/ros2_ws/src/mini_project' returned '0': CMAKE_PREFIX_PATH=/colossus/krish/ros2_ws/install/turtlesim:/colossus/krish/ros2_ws/install/proj_interfaces LD_LIBRARY_PATH=/colossus/krish/ros2_ws/install/turtlesim/lib:/colossus/krish/ros2_ws/install/proj_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/colossus/krish/ros2_ws/build/mini_project/prefix_override:/colossus/krish/ros2_ws/install/mini_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mini_project build --build-base /colossus/krish/ros2_ws/build/mini_project/build install --record /colossus/krish/ros2_ws/build/mini_project/install.log --single-version-externally-managed
